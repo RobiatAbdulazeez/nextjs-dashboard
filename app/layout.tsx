@@ -1,7 +1,7 @@
 import '@/app/ui/global.css';
-import { Inter } from 'next/font/google';
+import { inter } from './ui/fonts';
  
-export const inter = Inter({ subsets: ['latin'] });
+// export const inter = Inter({ subsets: ['latin'] });
 export default function RootLayout({
   children,
 }: {
